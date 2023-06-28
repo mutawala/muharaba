@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    position: relative;
+    background-color:rgba(75, 29, 12, 0.557);
+    margin: 10%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100;
+    width: 100%;  
+}
+.logo{
+    align-self: center;
+    font-size: 2rem;
+    background-image: linear-gradient(to right ,black,green,blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+.nav-links ul{
+   display:flex;
+   justify-content: space-between;
+   gap: 30px;
+   margin-top: 3rem;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: blue;
+}
+.nav-links ul li a:hover,
+.nav-links ul li a:active{
+    color:green ;
+    text-decoration: underline;
+}
+.btn{
+    font-size: 2.5rem;
+    font-weight: 500;
+    background-color:white;
+    color:blue;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.home-container{
+    display: flex;
+    justify-content: space-between;
+}
+.home-text{
+    border-radius: 5%;
+    background-color: rgba(0, 0, 255, 0.138);
+    width: 30%;
+    margin-top: 15rem;
+    text-align: center;
+}
+.lank h2{
+    color: blueviolet;
+    margin-bottom: 2rem;
+    margin-top: 1rem
+}
+button{
+  background-color: blueviolet;
+  border-radius: 1rem;
+  margin-top: 1rem;
+} 
+.names{
+    color:white
+}
+.home-image{
+    background-color: rgba(0, 0, 0, 0.451);
+    border-radius: 10%;
+}
+.home-image img{
+    width: 100%;
+    height: 100%;
+}   
